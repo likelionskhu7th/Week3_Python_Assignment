@@ -5,6 +5,7 @@
 # 입력이 완료되면 매번 전체 입력했던 전화번호의 목록을 출력하고,
 # 이름에 "그만"이라고 입력했을시 입력을 중단하고 전화번호의 목록을 출력합니다.
 
+
 class phone:
     Name = ""           # 없어도 됨
     Phonenumber = ""    # 없어도 됨
@@ -21,6 +22,7 @@ class phone:
     def print(self):
         print("이름은 "+self.Name+", 전화번호는 " +
               self.Phonenumber + ", 성별은 " + self.Sex + "입니다.")
+
 
 phonelist = list()
 while true:

@@ -4,6 +4,7 @@ class assignment:
         self.phone_number = phone_number
         self.sex = sex
 
+
 contact = []
 while True:
     name = input('이름을 입력하세요 : ')
