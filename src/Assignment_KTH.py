@@ -7,15 +7,12 @@ class Profile:
         self.gender = gender
         Profile.array = [self.name, self.phone, self.gender]
 
-
 a = Profile()
 b = []
-
 
 def show():
     for i in range(len(b)):
         print("이름은 %s, 전화번호는 %s, 성별은 %s입니다." % (b[i][0], b[i][1], b[i][2]))
-
 
 while True:
     name = input("이름을 입력하세요:")

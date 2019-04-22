@@ -17,7 +17,7 @@ while True:
     if sex != "male" and sex != "female" :
         sex = "unknown"
 
-    print("이름은" + name + "전화번호는" + phone_number + "성별은" + sex)
+    #print("이름은" + name + "전화번호는" + phone_number + "성별은" + sex)
 
     person = contact(name, phone_number, sex)
     result.append(person)
